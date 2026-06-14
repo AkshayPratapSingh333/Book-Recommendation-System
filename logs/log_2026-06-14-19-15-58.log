@@ -1,0 +1,8 @@
+[2026-06-14 19:15:58,543] root - INFO - ====================Data Ingestion log started.==================== 
+[2026-06-14 19:15:58,543] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/AkshayPratapSingh333/Book-Recommendation-System-Dataset/raw/main/books_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2026-06-14 19:15:58,545] root - INFO - Downloading data from https://github.com/AkshayPratapSingh333/Book-Recommendation-System-Dataset/raw/main/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2026-06-14 19:16:10,772] root - INFO - Downloaded data from https://github.com/AkshayPratapSingh333/Book-Recommendation-System-Dataset/raw/main/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2026-06-14 19:16:12,045] root - INFO - Extracting zip file: artifacts\dataset\raw_data\books_data.zip into dir: artifacts\dataset\ingested_data
+[2026-06-14 19:16:12,046] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
