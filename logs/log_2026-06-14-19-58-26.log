@@ -1,0 +1,19 @@
+[2026-06-14 19:58:29,665] numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2026-06-14 19:58:30,732] root - INFO - ====================Data Ingestion log started.==================== 
+[2026-06-14 19:58:30,732] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/AkshayPratapSingh333/Book-Recommendation-System-Dataset/raw/main/books_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2026-06-14 19:58:30,732] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2026-06-14 19:58:30,734] root - INFO - Downloading data from https://github.com/AkshayPratapSingh333/Book-Recommendation-System-Dataset/raw/main/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2026-06-14 19:58:39,042] root - INFO - Downloaded data from https://github.com/AkshayPratapSingh333/Book-Recommendation-System-Dataset/raw/main/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2026-06-14 19:58:40,102] root - INFO - Extracting zip file: artifacts\dataset\raw_data\books_data.zip into dir: artifacts\dataset\ingested_data
+[2026-06-14 19:58:40,102] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2026-06-14 19:58:40,102] root - INFO - ====================Data Validation log started.==================== 
+[2026-06-14 19:58:44,175] root - INFO -  Shape of ratings data file: (1149780, 3)
+[2026-06-14 19:58:44,175] root - INFO -  Shape of books data file: (271360, 8)
+[2026-06-14 19:58:46,388] root - INFO -  Shape of the final clean dataset: (59850, 9)
+[2026-06-14 19:58:46,803] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2026-06-14 19:58:46,889] root - INFO - Saved final_rating serialization object to artifacts\serialized_objects
+[2026-06-14 19:58:47,006] root - INFO - ====================Data Validation log completed.==================== 
+
+

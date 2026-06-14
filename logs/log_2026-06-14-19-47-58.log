@@ -1,0 +1,11 @@
+[2026-06-14 19:48:03,095] numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2026-06-14 19:48:04,579] root - INFO - ====================Data Ingestion log started.==================== 
+[2026-06-14 19:48:04,580] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/AkshayPratapSingh333/Book-Recommendation-System-Dataset/raw/main/books_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2026-06-14 19:48:04,581] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2026-06-14 19:48:04,583] root - INFO - Downloading data from https://github.com/AkshayPratapSingh333/Book-Recommendation-System-Dataset/raw/main/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2026-06-14 19:48:16,483] root - INFO - Downloaded data from https://github.com/AkshayPratapSingh333/Book-Recommendation-System-Dataset/raw/main/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2026-06-14 19:48:17,632] root - INFO - Extracting zip file: artifacts\dataset\raw_data\books_data.zip into dir: artifacts\dataset\ingested_data
+[2026-06-14 19:48:17,632] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2026-06-14 19:48:17,632] root - INFO - ====================Data Validation log started.==================== 
