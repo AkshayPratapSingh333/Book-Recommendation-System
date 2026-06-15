@@ -4,18 +4,15 @@ A **Collaborative Filtering** based book recommendation engine that suggests boo
 
 ---
 
-## � Screenshots
+## 📸 Screenshots
 
-| Home Page | Recommendation Page |
-|:---:|:---:|
-| ![Home](screenshots/Home.png) | ![Recommendation](screenshots/Recommendation.png) |
+| Home | Recommendation | Training | Artifacts | Training Completed |
+|:---:|:---:|:---:|:---:|:---:|
+| ![Home](screenshots/Home.png) | ![Recommendation](screenshots/Recommendation.png) | ![Training](screenshots/Training.png) | ![Artifacts](screenshots/ArtifactsCreated.png) | ![Training Completed](screenshots/TrainingCompleted.png) |
 
-| Training Page | Artifacts Created | Training Completed |
-|:---:|:---:|:---:|
-| ![Training](screenshots/Training.png) | ![Artifacts](screenshots/ArtifactsCreated.png) | ![Training Completed](screenshots/TrainingCompleted.png) |
+---
 
-
-## �📖 Table of Contents
+## 📖 Table of Contents
 
 1. [What is this App About?](#-what-is-this-app-about)
 2. [What is a Recommendation System?](#-what-is-a-recommendation-system)
